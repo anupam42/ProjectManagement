@@ -7,3 +7,20 @@ input.ng-invalid {
 label.invalid {
   color: var(--input-invalid-color);
 }
+html,body .container {
+  height: 100%;
+}
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header {
+  height: 5.1875rem;
+}
+
+a.button.active {
+  border: 1px solid var(--fore-color);
+}
